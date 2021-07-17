@@ -32,6 +32,7 @@ public:
 };
 int main(int argc, char const *argv[])
 {
+    Address a1 = Address("C-123", "Harare", "Mabelreighn");
     Employee e1 = Employee(101, "Tapiwa", &a1);
     e1.display();
     return 0;
